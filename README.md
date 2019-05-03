@@ -53,7 +53,7 @@ If there is an existing controller in the App\Http\Controllers namespace it will
 You can modify the default behavior using the following parameters:
 
 ```
-php artisan generate:controllers {contoller} {model} --overwrite
+php artisan generate:controllers {contoller} {model} --overwrite 
 ```
 
 With the overwrite option the generator will always overwrite the controller in the App\Http\Controllers namespace.
