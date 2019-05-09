@@ -176,6 +176,6 @@ class {{ $controllerName }} extends Controller
         {{ $object }}->delete();
 
         flash('{{ $model }} deleted')->success();
-        return redirect()->route('{{ $indexRoute }}');
+        return redirect()->back()->withInput();
     }
 }
