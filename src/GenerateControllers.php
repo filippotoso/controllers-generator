@@ -173,7 +173,7 @@ class GenerateController extends Command
                 'modelClass' => $modelClass,
                 'model' => $modelName,
 
-                'indexRoute' => $this->routeName($modelName) . 'index',
+                'indexRoute' => $this->routeName($modelName) . '.index',
 
                 'viewPath' => $this->viewPath($modelName),
 
