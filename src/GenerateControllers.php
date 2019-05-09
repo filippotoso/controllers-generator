@@ -296,6 +296,8 @@ class GenerateController extends Command
 
             'controller' => $this->controller,
 
+            'item' => lcfirst($modelName),
+
             'route' => $this->routeName(basename($this->model)),
         ];
 
