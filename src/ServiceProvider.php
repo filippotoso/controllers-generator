@@ -25,6 +25,10 @@ class ServiceProvider extends EventServiceProvider
             dirname(__DIR__) . '/resources/views' => resource_path('views/vendor/controllers-generator'),
         ], 'views');
 
+        $this->publishes([
+            dirname(__DIR__) . '/config/controllers-generator.php' => config_path('controllers-generator.php'),
+        ], 'config');
+
         if ($this->app->runningInConsole()) {
             $this->commands([
                 GenerateController::class
