@@ -43,7 +43,7 @@ Just open the file and read the comments :)
 The predefined use from command line is:
 
 ```
-php artisan generate:controllers {contoller} {model}
+php artisan generate:controller {contoller} {model}
 ```
 
 This command creates a {controller} with CRUD capabilities for the specified {model}.
@@ -53,7 +53,7 @@ If there is an existing controller in the App\Http\Controllers namespace it will
 You can modify the default behavior using the following parameters:
 
 ```
-php artisan generate:controllers {contoller} {model} --overwrite 
+php artisan generate:controller {contoller} {model} --overwrite 
 ```
 
 With the overwrite option the generator will always overwrite the controller in the App\Http\Controllers namespace.
