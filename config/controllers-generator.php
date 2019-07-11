@@ -20,7 +20,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | Define the format of the path for the generated views. You can use 
-    | {model}, {models}, {kebab-mode} or {kebab-models} to include the 
+    | {model}, {models}, {kebab-model} or {kebab-models} to include the 
     | model name in singular or plural version.
     |
      */
@@ -34,7 +34,7 @@ return [
     |
     | Define the format of the url for the generated controller endpoint.
     | This option is used when generating the routes. You can use {model}, 
-    | {models}, {kebab-mode} or {kebab-models} to include the model name 
+    | {models}, {kebab-model} or {kebab-models} to include the model name 
     | in singular or plural version. For actions and methods, laravel's 
     | conventions will be used.
     |
@@ -48,7 +48,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | Define the format of the routes. You can use {model}, {models},
-    | {kebab-mode} or {kebab-models} to include the model name 
+    | {kebab-model} or {kebab-models} to include the model name 
     | in singular or plural version. 
     |
      */
