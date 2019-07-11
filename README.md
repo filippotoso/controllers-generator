@@ -60,8 +60,8 @@ With the overwrite option the generator will always overwrite the controller in 
 
 Other options include:
 
---test : When set the generator creates also a test suite for the controller.
---protected : When set the generator adds code to protect the routes from users without the required permissions.
---owned : When both this option and --protected are set, the generator ads checks for ownership before updating and deleting resources.
---routes : When set the generator will add the required routes to the routes/web.php file.
---base-controller= : Specify the base controller that the generated controller will extend on.
+- --test : When set the generator creates also a test suite for the controller.
+- --protected : When set the generator adds code to protect the routes from users without the required permissions.
+- --owned : When both this option and --protected are set, the generator ads checks for ownership before updating and deleting resources.
+- --routes : When set the generator will add the required routes to the routes/web.php file.
+- --base-controller= : Specify the base controller that the generated controller will extend on.
